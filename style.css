@@ -14,7 +14,6 @@ button {
 }
 
 a:hover {
-    text-decoration: none;
     cursor: pointer;
 }
 
@@ -231,7 +230,7 @@ a:hover {
 .l-bloc h5 a,
 .l-bloc h6 a,
 .l-bloc p a {
-    color: rgba(0, 0, 0, .6);
+    color: black;
 }
 
 .d-bloc .panel .a-btn:hover,
@@ -249,7 +248,8 @@ a:hover {
 .l-bloc h5 a:hover,
 .l-bloc h6 a:hover,
 .l-bloc p a:hover {
-    color: rgba(0, 0, 0, 1);
+    color: rgba(0, 0, 0, .6);
+    border-bottom: 1px solid black;
 }
 
 .l-bloc .navbar-toggle .icon-bar {
@@ -372,7 +372,7 @@ a:hover {
     }
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
-        color: #484848;
+        color: black;
     }
     .nav-invert .site-navigation {
         left: 0;
@@ -651,7 +651,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: black;
 }
 
 .container {
