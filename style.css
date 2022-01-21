@@ -6,6 +6,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+/*ajout d'une classe pour un texte en noir*/
 .black-text{
     color: black!important;
 }
@@ -548,7 +549,7 @@ a[data-lightbox]:hover::before {
     margin-left: -25px;
     border-radius: 50%;
     background: rgba(0, 0, 0, .6);
-    color: black;
+    color: black;/*changement de la couleur*/
     font-weight: 100;
     z-index: 1;
     position: absolute;
@@ -654,7 +655,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: black;
+    color: black;/*modification de la couleur*/
 }
 
 .container {
@@ -726,7 +727,7 @@ h3 {
 }
 
 h1 {
-    color: white;
+    color: white;/*modification de la couleur*/
 }
 
 h4 {
@@ -739,7 +740,7 @@ h4 {
 }
 
 .white {
-    color: black!important;
+    color: black!important;/*modification de la couleur*/
 }
 
 .portfolio-thumb {
@@ -825,7 +826,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image_de_presentation.jpg");
+    background-image: url("img/image_de_presentation.jpg");/*modification du format de l'image pour de meilleures performances*/
 }
 
 @media (max-width: 1024px) {
